@@ -4,7 +4,7 @@ A simple Python arcade-style Asteroids game built with `pygame`.
 
 ## What this is
 
-This repository contains a playable game that can run on Windows, macOS, or Linux. 
+This repository contains a playable game that can run on Windows, macOS, or Linux.
 
 ## Requirements
 
@@ -57,30 +57,19 @@ This repository contains a playable game that can run on Windows, macOS, or Linu
    pip install -r requirements.txt
    ```
 
-   If you do not have `requirements.txt`, run:
+   If that fails, try:
 
    ```bash
    pip install pygame==2.6.1
    ```
 
-6. Verify Python is available by running:
-
-   ```bash
-   python --version
-   ```
-
-   If that shows an error, try:
-
-   ```bash
-   python3 --version
-   ```
 
 ## Run the game
 
 With the virtual environment active, start the game:
 
 ```bash
-python main.py
+uv run main.py
 ```
 
 ## Game controls
