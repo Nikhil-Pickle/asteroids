@@ -6,6 +6,13 @@ A simple Python arcade-style Asteroids game built with `pygame`.
 
 This repository contains a playable game that can run on Windows, macOS, or Linux.
 
+## Gameplay
+
+<video width="100%" controls autoplay muted loop>
+  <source src="gameplay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Requirements
 
 - Python 3.13 or newer
